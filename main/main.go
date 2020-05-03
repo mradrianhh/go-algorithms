@@ -8,5 +8,5 @@ import (
 
 func main() {
 	items := []int{12, 23, 25, 12, 15, 35, 135, 235, 2263, 14}
-	fmt.Println(search.Linearsearch(items, 23))
+	fmt.Println(search.BinarySearch(35, items))
 }
